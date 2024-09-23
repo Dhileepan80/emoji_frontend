@@ -1,0 +1,43 @@
+.emojiWrapper {
+  padding: 1rem 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+
+  >span {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+.emojiFilterWrapper {
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  >div {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.7rem;
+    justify-content: space-between;
+
+    >select {
+      width: 48%;
+    }
+
+    >input {
+      width: 60%;
+    }
+
+    >button {
+      width: 30%;
+    }
+  }
+}
+
+.loader {
+  text-align: center;
+}
